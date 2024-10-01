@@ -29,7 +29,7 @@ export const HeroSection = () => {
 
               <div className="flex flex-col pt-3 gap-2 min-[400px]:flex-row">
                 <Button varient={"outline"} size={"default"} >
-                  <a href="https://drive.google.com/file/d/1IzyvRR9RWZZwJ-01X3zbtYqxmEF0RAlr/view?usp=sharing">Download CV</a>
+                  <a href="https://drive.google.com/file/d/1kVunM0FvZ2LKFKgm3OgVf0v5ib9KugbJ/view?usp=sharing">Download CV</a>
 
                 </Button>
                 {/* <Button varient = {"default"} size={"default"} >
