@@ -7,10 +7,8 @@ export const HeroSection = () => {
       <section className="w-full py-8 md:py-6 lg:py-4">
         <div className="container px-4 md:px-6 lg:px-8">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12">
-            {/* Text Section */}
             <div className="flex flex-col justify-center space-y-4 text-center lg:text-left">
               <div className="space-y-2">
-                {/* Added min-h to reserve space */}
                 <h1 className="text-[#e07f46] text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight py-2 min-h-[100px] md:min-h-[80px]">
                   <span className="inline-block">
                     <Typewriter
@@ -31,11 +29,10 @@ export const HeroSection = () => {
                 </p>
               </div>
 
-              {/* Buttons */}
               <div className="flex flex-col pt-3 gap-2 sm:flex-row sm:justify-center lg:justify-start">
                 <Button variant="outline" size="default" className="bg-gray-100">
                   <a
-                    href="https://drive.google.com/file/d/1kVunM0FvZ2LKFKgm3OgVf0v5ib9KugbJ/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1wIYPCdaUfeGW9RpLXF1r0NLyKsuXROhn/view?usp=sharing"
                     // target="_blank"
                     // rel="noopener noreferrer"
                   >
@@ -45,7 +42,6 @@ export const HeroSection = () => {
               </div>
             </div>
 
-            {/* Image Section */}
             <div className="flex justify-center lg:justify-end">
               <img
                 src="hero.jpg"
