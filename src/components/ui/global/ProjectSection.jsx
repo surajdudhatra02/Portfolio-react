@@ -19,6 +19,13 @@ const ProjectSection = () => {
         <div className='mx-auto grid max-w-5xl items-start gap-8 sm:grid-cols-2 md:gap-12 lg:grid-cols-3 mt-10'>
 
           <ProjectCard
+            imageUrl="project/The Pet Management.png"
+            title="Pet Management App"
+            description="A mordern web application built with MERN stack"
+            url="https://github.com/surajdudhatra02/Pet-Management-App"
+          />
+
+          <ProjectCard
             imageUrl="project/My-Chat-App.png"
             title="My Chat App"
             description="A mordern web application built with MERN stack"
