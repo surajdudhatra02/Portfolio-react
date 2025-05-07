@@ -2,6 +2,8 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
+import { FaHackerrank } from "react-icons/fa6";
 
 const FooterSection = () => {
     return (
@@ -28,6 +30,16 @@ const FooterSection = () => {
                     <div className="flex gap-2 text-lg font-medium hover:underline underline-offset-4">
                         <FaGithub size={24} />
                         <span><a href="https://github.com/surajdudhatra02">GitHub</a></span>
+                    </div>
+
+                    <div className="flex gap-2 text-lg font-medium hover:underline underline-offset-4">
+                        <SiLeetcode  size={24} />
+                        <span><a href="https://leetcode.com/u/surajdudhatra/">LeetCode</a></span>
+                    </div>
+
+                    <div className="flex gap-2 text-lg font-medium hover:underline underline-offset-4">
+                        <FaHackerrank size={24} />
+                        <span><a href="https://www.hackerrank.com/profile/surajdudhatra">HackerRank</a></span>
                     </div>
                 </div>
             </div>

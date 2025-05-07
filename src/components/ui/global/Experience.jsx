@@ -1,6 +1,16 @@
 
 const experiences = [
   {
+    title: 'Saurashtra Oil Website',
+    company: 'Freelance Work',
+    duration: 'Feb 2025 - March 2025',
+    description: [
+      'Developed a responsive React-based website for a groundnut oil manufacturing company, showcasing the brand, production process, and product offerings with a clean and minimaist design.'
+    ],
+    link: "https://saurashtraoil.com/"
+  },
+
+  {
     title: 'Trainee Software Engineer',
     company: 'Sapphire Software Solutions - Ahmedabad',
     duration: 'Nov 2024 - Jan 2025',
@@ -50,13 +60,13 @@ const Experience = () => {
                 <h3 className="text-xl font-semibold">{exp.title}</h3>
                 <h4 className="text-gray-600">{exp.company}</h4>
                 <p className="text-gray-500">{exp.duration}</p>
-                {/* <button
+                <button
                 type="button"
                 className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-200 focus:ring-4 focus:ring-gray-200 font-medium rounded-md text-sm px-6 py-3 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-500 dark:focus:ring-gray-700 w-32 h-12 mt-3 shadow-sm hover:shadow-lg transition-shadow duration-300 ease-in-out"
               >
-                <a href={exp.link} >Certificate</a>
+                <a href={exp.link} >Link</a>
                 
-              </button> */}
+              </button>
 
               </div>
               <ul className="mt-2 text-gray-700 md:w-1/2 md:ml-4">

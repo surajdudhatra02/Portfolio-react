@@ -32,7 +32,7 @@ export const HeroSection = () => {
               <div className="flex flex-col pt-3 gap-2 sm:flex-row sm:justify-center lg:justify-start">
                 <Button variant="outline" size="default" className="bg-gray-100">
                   <a
-                    href="https://drive.google.com/file/d/1zz_y8u7FM4S9Zp1f02Ir4jS0t2FEy4Cp/view?usp=sharing"
+                    href="https://drive.google.com/file/d/16RL87tAqiBua4tXXq6UQgt0nADkgc4Rv/view?usp=sharing"
                     // target="_blank"
                     // rel="noopener noreferrer"
                   >
