@@ -94,7 +94,7 @@ export default function HeroSection() {
               {/* Action Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-2">
                 <a
-                  href="https://drive.google.com/file/d/16RL87tAqiBua4tXXq6UQgt0nADkgc4Rv/view?usp=sharing"
+                  href="https://drive.google.com/drive/folders/1y2a7CCXI1uKVDxKD7zwjvmdfKkWbpgq5?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group inline-flex items-center justify-center gap-2 px-8 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-semibold rounded-full transform hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/25 w-fit mx-auto sm:mx-0"
