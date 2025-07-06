@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.particle {
+  position: absolute;
+  background-color: rgba(6, 182, 212, 0.2); /* cyan-400 opacity-20 */
+  border-radius: 9999px;
+  animation: float 6s ease-in-out infinite;
+}
+
+
 @layer base {
   :root {
     --background: 0 0% 100%;
