@@ -56,7 +56,7 @@ export default function AboutSection() {
               </span>
             </h2>
 
-            <div className="w-20 h-1 bg-gradient-to-r from-cyan-500 to-blue-600 mx-auto rounded-full"></div>
+            {/* <div className="w-20 h-1 bg-gradient-to-r from-cyan-500 to-blue-600 mx-auto rounded-full"></div> */}
           </div>
 
           {/* Main Content Grid */}
