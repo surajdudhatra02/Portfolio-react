@@ -1,16 +1,16 @@
 export const experiences = [
   {
-    title: "Frontend Developer",
-    company: "Infilon Technologies Pvt ltd - Ahmedabad",
+    title: "Software Engineer",
+    company: "Infilon Technologies - Ahmedabad",
     duration: "May 2025 - Present",
     description: [
-      "Built and deployed production-ready web applications using Next.js, achieving up to 40% improvement in load time with server-side rendering and static site generation.",
-      "Integrated APIs and dynamic routing in Next.js projects to create scalable, SEO-friendly platforms with seamless user experience.",
-      "Exploring React Native to build efficient, cross-platform mobile applications with a single codebase.",
+      "Developed and enhanced a production-level React Native application by implementing multiple core features, including social functionalities (post, like, comment, share) and live location tracking.",
+      "Implemented push notifications using Firebase Cloud Messaging (FCM) and configured native modules for Android and iOS, enabling real-time notification delivery across the application.",
+      "Managed client-side data using multiple storage solutions (AsyncStorage, MMKV, SQL) and utilized Zustand and Redux for state management along with Axios for API integration.",
+      "Optimized performance by reducing unnecessary re-renders and API calls, improving app responsiveness and overall user experience.",
     ],
     category: "Full-time",
     status: "Current",
-    // link: "https://saurashtraoil.com/"
   },
   {
     title: "Saurashtra Oil Website",
@@ -28,24 +28,22 @@ export const experiences = [
     company: "Sapphire Software Solutions - Ahmedabad",
     duration: "Nov 2024 - April 2025",
     description: [
-      "Gained practical web design experience through real-world projects, enhancing responsive UI/UX and following industry best practices through continuous self-learning.",
+      "Gained hands-on experience in web design through real-world projects, enhancing responsive UI/UX and applying industry best practices through continuous learning.",
       "Developed and maintained scalable MERN stack applications, leveraging Node.js and Express.js to build secure APIs and MongoDB to manage datasets with over 10,000 records in production.",
-      "Built and integrated RESTful APIs using Express.js and Node.js, streamlining frontend-backend communication and reducing data processing time by up to 35%.",
+      "Built and integrated RESTful APIs using Node.js and Express.js, streamlining frontend-backend communication and reducing data processing time by up to 35%.",
     ],
-    // link: "https://drive.google.com/file/d/1xv4ZTAlScW-T3o8SRRapXsHAAvlSR0fF/view?usp=drive_link",
     category: "Full-time",
     status: "Completed",
   },
   {
-    title: "WebDeveloper Intern",
-    company: "Alpha-E Barcode Solutions - Ahmedabad",
+    title: "Web Developer Intern",
+    company: "Alpha-e Barcode Solutions - Ahmedabad",
     duration: "Jan 2024 - Aug 2024",
     description: [
-      "Built static and responsive websites using HTML5/CSS3 with clean layouts and cross-browser compatibility.",
-      "Developed dynamic features using JavaScript and optimized SQL databases for web applications, improving query efficiency by 30% through structured indexing and relational joins.",
-      "Generated data-driven reports using SAP Crystal Reports and managed databases with SQL Server Management Studio, streamlining reporting workflows and improving data accessibility.",
+      "Built static and responsive websites using HTML5 and CSS3 with clean layouts and cross-browser compatibility.",
+      "Developed dynamic features using JavaScript and optimized SQL databases, improving query efficiency by 30% through indexing and relational joins.",
+      "Generated data-driven reports using SAP Crystal Reports and managed databases with SQL Server Management Studio, improving reporting workflows and data accessibility.",
     ],
-    // link: "https://drive.google.com/file/d/1xv4ZTAlScW-T3o8SRRapXsHAAvlSR0fF/view?usp=drive_link",
     category: "Internship",
     status: "Completed",
   },
@@ -77,10 +75,37 @@ export const skills = [
   { name: "SQL", src: "/skills/sql.png", category: "Database" },
   { name: "SQL Server", src: "/skills/ssms.png", category: "Database" },
   { name: "Java", src: "/skills/java.png", category: "Backend" },
+  { name: "REST APIs", src: "/skills/rest_api.png", category: "Backend" },
+  { name: "Redux", src: "/skills/redux.png", category: "State Management" },
+  { name: "Zustand", src: "/skills/zustand.svg", category: "State Management" },
+  {
+    name: "Android Studio",
+    src: "/skills/android_studio.svg",
+    category: "Tools",
+  },
+  { name: "Xcode", src: "/skills/xcode.png", category: "Tools" },
   { name: "Git", src: "/skills/git.png", category: "Tools" },
 ];
 
 export const allProjects = [
+  {
+    imageUrl: "project/building.jpg",
+    title: "Habit Tracker App",
+    description:
+      "Developing a cross-platform mobile application using React Native for tracking daily habits with an intuitive and user-friendly UI styled using NativeWind. Integrated Supabase for authentication and habit analytics with charts.",
+    url: "https://github.com/surajdudhatra02",
+    tech: ["React Native", "NativeWind", "Supabase", "Zustand"],
+    featured: true,
+  },
+  {
+    imageUrl: "project/saurashtra_oil.jpg",
+    title: "Saurashtra Groundnut Oil Website",
+    description:
+      "Developed a responsive website using Next.js for a groundnut oil manufacturing company, ensuring fast load times and SEO-friendly structure with modern UI components.",
+    url: "https://saurashtraoil.com/",
+    tech: ["Next.js", "React", "TailwindCSS"],
+    featured: true,
+  },
   {
     imageUrl: "project/The Pet Management.png",
     title: "Pet Management App",

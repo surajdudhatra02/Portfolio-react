@@ -16,7 +16,7 @@ const ProjectSection = () => {
           }
         });
       },
-      { threshold: 0.1 }
+      { threshold: 0.1 },
     );
 
     const element = document.getElementById("projects");
@@ -45,7 +45,7 @@ const ProjectSection = () => {
       {/* Radial Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-radial from-blue-500/3 via-transparent to-transparent" />
 
-      <div className="container px-4 md:px-6 relative z-10">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         {/* Header Section */}
         <div
           className={`flex flex-col items-center justify-center space-y-6 text-center transform transition-all duration-1000 ${

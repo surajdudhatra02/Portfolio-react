@@ -13,7 +13,7 @@ export default function AboutSection() {
           }
         });
       },
-      { threshold: 0.1 }
+      { threshold: 0.1 },
     );
 
     const element = document.getElementById("about");
@@ -34,7 +34,7 @@ export default function AboutSection() {
       {/* Radial Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-radial from-blue-500/5 via-transparent to-transparent" />
 
-      <div className="relative z-10 container mx-auto px-4 md:px-6 flex items-center justify-center">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex items-center justify-center">
         <div className="max-w-6xl text-center">
           {/* Header */}
           <div
@@ -71,19 +71,19 @@ export default function AboutSection() {
             >
               <div className="space-y-6">
                 <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
-                  Web developer with{" "}
+                  React Native Developer with{" "}
                   <span className="text-cyan-400 font-semibold">
                     1 year of experience
                   </span>{" "}
-                  building responsive, SEO-friendly applications using React.js,
-                  Next.js, and the MERN stack.
+                  building cross-platform mobile and responsive web applications
+                  using React Native, React.js, and the MERN stack.
                 </p>
 
                 <p className="text-gray-400 leading-relaxed">
-                  I enjoy solving complex problems, optimizing performance, and
-                  continuously learning new tools and frameworks. My passion
-                  lies in creating seamless user experiences with clean,
-                  maintainable code.
+                  I enjoy building user-friendly mobile interfaces, optimizing
+                  app performance, and integrating native modules and APIs. My
+                  passion lies in creating seamless user experiences across iOS
+                  and Android with clean, maintainable code.
                 </p>
               </div>
             </div>

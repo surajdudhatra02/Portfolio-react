@@ -12,7 +12,7 @@ const FooterSection = () => {
           }
         });
       },
-      { threshold: 0.1 }
+      { threshold: 0.1 },
     );
 
     const element = document.getElementById("contact");
@@ -67,7 +67,7 @@ const FooterSection = () => {
       id="contact"
       className="relative w-full py-16 md:py-20 bg-gradient-to-br from-gray-900 via-black to-gray-900"
     >
-      <div className="container px-4 md:px-6 lg:px-8 mx-auto relative z-10 max-w-6xl">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         {/* Header */}
         <div
           className={`text-center mb-12 transform transition-all duration-700 ${

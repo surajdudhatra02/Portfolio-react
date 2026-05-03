@@ -59,7 +59,7 @@ export const Header = () => {
           : "bg-gradient-to-r from-gray-900/80 via-black/80 to-gray-900/80 backdrop-blur-sm"
       }`}
     >
-      <div className="container mx-auto px-4 md:px-6 lg:px-8 max-w-6xl">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <button
